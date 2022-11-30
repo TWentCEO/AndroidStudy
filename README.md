@@ -12,4 +12,4 @@
 * Bottom Navigation 생성
   * 3개의 Composable 생성 후 Navi 설정
 
-<img width="50%" src="https://user-images.githubusercontent.com/62507896/204801475-0d63d840-af66-40d6-8611-87ef3fadc9ac.gif"/>
+<img width="20%" src="https://user-images.githubusercontent.com/62507896/204801475-0d63d840-af66-40d6-8611-87ef3fadc9ac.gif"/>
