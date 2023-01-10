@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         var view = binding.root
-        setContentView(R.layout.activity_main)
+        setContentView(view)
 
         val outputTextView = binding.outputTextView
         val outputUnitTextView = binding.outputUnitTextView
@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         var cmToM = true
 
         inputEditTextView.addTextChangedListener { text ->
-            Log.d("Main Activity", text.toString())
             inputNumber = if (text.isNullOrEmpty()) {
                 0
             } else {
@@ -41,6 +40,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         swapImageButton.setOnClickListener {
+            Log.d("Main Activity", inputNumber.toString())
+
             cmToM = cmToM.not()
             if (cmToM) {
                 inputUnitTextView.text = "cm"
