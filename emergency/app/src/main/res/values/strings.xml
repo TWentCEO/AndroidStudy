@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">emergency</string>
+    <string name="name">이름</string>
+    <string name="birth_day">생년월일</string>
+    <string name="blood">혈액형</string>
+    <string name="phone">비상 연락처</string>
+    <string name="precautions">주의사항</string>
+    <string name="precaution_message">주의사항 노출</string>
+</resources>
