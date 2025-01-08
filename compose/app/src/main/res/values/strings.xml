@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">compose</string>
-    <string name="text_myself">자기소개</string>
-    <string name="text_portfolio">포트폴리오</string>
-    <string name="text_personal_statement">자기소개서</string>
-
-</resources>
